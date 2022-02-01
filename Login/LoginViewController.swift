@@ -8,21 +8,6 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-    // Requirements:
-    //
-    // * the login button should be disabled until both fields have values.
-    //
-    // * pressing the login button should perform the 'userService' login,
-    //   and return the appropriate result to the view controller
-    //   success should segue to the next controller
-    //   failure should print to console and clear the iputs.
-    //
-    // * clear the text fields in either case.
-    //
-    // ** dispose bag only allowed in the controller
-    // ** Delete as much imperative code as you can.
-    // ** Have fun.
-
     private let mainSegue = "mainSegue"
     
     @IBOutlet private var nameTextField: UITextField!
