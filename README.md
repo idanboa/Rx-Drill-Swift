@@ -21,4 +21,4 @@ A small project designed in imperative MVVM that needs to be refactored into Rea
 * Delete as much imperative code as you can.
 * Have fun.
 
-### ** master branch pushing in not allowed and is enforced, so open a PR if youu wanna :)
+### ** master branch pushing in not allowed and is enforced, so open a PR if you wanna :)
