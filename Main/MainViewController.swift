@@ -9,21 +9,6 @@ import Foundation
 import UIKit
 
 class MainViewController: UIViewController {
-    // Requirements:
-    //
-    // * Implement the search mechanism in Rx (UTextField typing -> viewModel -> table data + reload).
-    //
-    // * Throttle the typing to 0.3 seconds before searching begins.
-    //
-    // * Pressing the button should perform a logout using the 'userService',
-    //   wait for the logout to complete, and then pop to Login VC.
-    //
-    // * Clear the username on logout.
-    //
-    // ** Dispose bag only allowed in the controller.
-    // ** Delete as much imperative code as you can.
-    // ** Have fun.
-    
     @IBOutlet private var searchTextField: UITextField!
     @IBOutlet private var resultsTableView: UITableView!
     @IBOutlet private var logoutButton: UIButton!
